@@ -1,0 +1,16 @@
+{
+"include": [
+    "./src/**/*.ts"
+  ],
+  "compilerOptions": {
+"outDir": "./build",
+"target": "es2015",
+"module": "commonjs",
+"strict": true,
+"resolveJsonModule": true,
+"esModuleInterop": true,
+"types": [
+  "node"
+]
+   }
+}
